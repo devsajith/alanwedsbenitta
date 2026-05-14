@@ -22,14 +22,25 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://alanwedsbenitta.vercel.app'),
   title: "Alan & Benitta | Wedding Invitation",
-  description: "Request the honor of your presence at the Holy Matrimony of Alan and Benitta on May 24, 2026.",
+  description: "Celebrate love with us on May 24, 2026 — join Alan and Benitta for an intimate wedding celebration in style.",
   openGraph: {
     title: "Alan & Benitta | Wedding Invitation",
-    description: "Request the honor of your presence at the Holy Matrimony of Alan and Benitta on May 24, 2026.",
-    images: [{ url: "/images/og-image.jpg" }],
+    description: "Celebrate love with us on May 24, 2026 — join Alan and Benitta for an intimate wedding celebration in style.",
+    images: [{ url: "/images/watercolor_couple_sketch.png" }],
+    type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Alan & Benitta | Wedding Invitation",
+    description: "Celebrate love with us on May 24, 2026 — join Alan and Benitta for an intimate wedding celebration in style.",
+    images: ["/images/watercolor_couple_sketch.png"],
+  },
+  icons: [
+    { rel: "icon", url: "/ring.svg" },
+    { rel: "apple-touch-icon", url: "/ring.svg" },
+  ],
 };
 
 export default function RootLayout({
