@@ -1,7 +1,7 @@
 import { HeroSection } from "@/components/HeroSection";
 import { WeddingDetails } from "@/components/WeddingDetails";
 import { CountdownTimer } from "@/components/CountdownTimer";
-import { Gallery } from "@/components/Gallery";
+// import { Gallery } from "@/components/Gallery";
 import { MapSection } from "@/components/MapSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
@@ -13,7 +13,8 @@ export default function Home() {
       <HeroSection />
       <WeddingDetails />
       <CountdownTimer />
-      <Gallery />
+      {/* Captured Moments gallery temporarily hidden until more images are ready */}
+      {/* <Gallery /> */}
       <MapSection />
       <ContactSection />
       <Footer />
