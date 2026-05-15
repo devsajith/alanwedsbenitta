@@ -12,7 +12,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white py-20">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white py-12">
       {/* Background Texture/Image */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-white/80 z-10" />
@@ -49,12 +49,12 @@ export function HeroSection() {
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.2, delay: 0.5 }}
-          className="my-4 w-full flex justify-center"
+          className="w-full flex justify-center"
         >
           <img 
             src="/images/bridegroom.png" 
             alt="Bride and Groom Portrait" 
-            className="w-full md:max-w-lg h-[250px] object-cover mix-blend-multiply" 
+            className="w-full md:max-w-lg h-[320px] md:h-[380px] object-cover mix-blend-multiply" 
           />
         </motion.div>
 
