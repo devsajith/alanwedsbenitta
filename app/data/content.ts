@@ -44,12 +44,12 @@ export const weddingData = {
   contacts: [
     {
       name: "Groom's Family",
-      phone: "+910000000000",
+      phone: "+919645851927",
       relation: "Groom",
     },
     {
       name: "Bride's Family",
-      phone: "+910000000000",
+      phone: "+919645851927",
       relation: "Bride",
     },
   ],

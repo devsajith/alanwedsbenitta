@@ -52,8 +52,8 @@ export function HeroSection() {
           className="my-4 w-full flex justify-center"
         >
           <img 
-            src="/images/watercolor_couple_sketch.png" 
-            alt="Bride and Groom Watercolor Sketch" 
+            src="/images/bridegroom.png" 
+            alt="Bride and Groom Portrait" 
             className="w-full max-w-md md:max-w-lg h-auto object-contain mix-blend-multiply" 
           />
         </motion.div>
