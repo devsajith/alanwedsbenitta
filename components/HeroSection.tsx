@@ -54,7 +54,7 @@ export function HeroSection() {
           <img 
             src="/images/bridegroom.png" 
             alt="Bride and Groom Portrait" 
-            className="w-full max-w-md md:max-w-lg h-auto object-contain mix-blend-multiply" 
+            className="w-full md:max-w-lg h-[250px] object-cover mix-blend-multiply" 
           />
         </motion.div>
 
