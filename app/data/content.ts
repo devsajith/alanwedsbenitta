@@ -38,7 +38,7 @@ export const weddingData = {
   venue: {
     name: "St. George Jacobite Cathedral, Adimali",
     address: "Adimali, Kerala",
-    mapUrl: "https://maps.google.com/maps?q=St.%20George%20Jacobite%20Cathedral,%20Adimali&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    mapUrl: "https://maps.google.com/maps?q=2X64%2BJFM%20St.%20George%20Jacobite%20Cathedral%2C%20Adimali%20-%20Rajakad%20Rd%2C%20Adimali%2C%20Kerala%20685561&t=&z=15&ie=UTF8&iwloc=&output=embed",
     mapShareUrl: "https://maps.app.goo.gl/gqdeLKET41NhhwFKA?g_st=ac",
   },
   contacts: [
